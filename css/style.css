@@ -1,19 +1,13 @@
 /*----------------------------------------------------
 @File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
+
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: Builder Construction
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
+
 
 @Default Styles
 
@@ -79,7 +73,7 @@ button:focus {
 
 .p_120 {
   padding-top: 60px;
-  padding-bottom: 120px; }
+  padding-bottom: 80px; }
 
 .p_100 {
   padding-top: 100px;
@@ -3497,6 +3491,9 @@ h6 {
   visibility: visible;
   opacity: 1;}
 
+  @media (max-width: 768px) {
+    .code1{
+    display: none;} }
 
 /* End Footer Area css
 ============================================================================================ */
